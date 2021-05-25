@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+   
+}
+
+.header {
+    background-color: #55a44e;
+    color: #ede9a3;
+    overflow: auto;
+    border-bottom: 3px solid #ede9a3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    color: white;
+    
+}
+
+
+.navbar {
+    list-style: none;
+    float: right;
+}
+
+.titulo {
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+}
+
+.header .navbar li {
+    float: left;
+    margin-left: 13px;
+    text-transform: uppercase;
+}
+
+.destaque {
+    color: #ede9a3;
+}
+
+
+
+.banner {
+    text-align: center;
+    background-image: url("./imagens/planodefundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+.banner h3 {
+    color: #555555;
+}
+
+
+ button {
+    border: 0;
+    background-color: #55a44e;
+    color: #ede9a3;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.porque {
+   background-color: white; 
+   text-align: center;
+   background: blue;
+   height: 500px;
+   
+}
+
+.porque p{
+   width: 550px;
+    background: red;
+    margin: 0 auto;
+}
+
+.box img {
+    height: 100px
+}
+
+.box {
+    overflow: auto;
+} 
+
+.box-item {
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 3%;
+}
+
+
+.footer {
+    text-align: center;
+    background-image: url(./imagens/footer.png);
+    height: 80px;
+}
+
+.footer h4 {
+    margin: 0;
+    padding-top: 40px;
+    font-weight: 100;
+    color: #ede9a3;
+}
